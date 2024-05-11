@@ -1,0 +1,21 @@
+# Python compiled files
+*.pyc
+__pycache__/
+
+# Virtual environment
+venv/
+.env/
+
+# IDE or editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+pip-log.txt
+pip-wheel-metadata/
+/.env
