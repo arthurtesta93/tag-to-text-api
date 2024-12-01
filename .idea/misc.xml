@@ -3,7 +3,7 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.10 (ttt-api) (2)" />
   </component>
-  <component name="ProjectRootManager">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_22" project-jdk-name="Python 3.10 (text-to-tag-api)" project-jdk-type="Python SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

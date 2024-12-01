@@ -8,7 +8,6 @@ from dotenv import load_dotenv
 load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-
 app = Flask(__name__)
 
 # Initialize logger
@@ -37,7 +36,7 @@ def tags_controller():
         messages=[
             {
                 "role": "system",
-                "content": "You will be provided with a block of text, and your task is to extract a list of tags from it, a minimum of 2 a maximum of 6. The tags should be preferrably single words. Also, the output should be a comma separated list of tags."
+                "content": "You will be provided with a block of text, and your task is to extract a list of tags from it, a minimum of 2 a maximum of 6. The tags should be composed of no more than four words. Also, the output should be a comma separated list of tags."
             },
             {
                 "role": "user",
